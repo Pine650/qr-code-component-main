@@ -1,7 +1,13 @@
 * {
     background-color: hsl(212, 45%, 89%);
 }
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    display: block;
+    margin-top: 10px;
+    font-family: "Outfit";
+}
 .attribution a { color: hsl(228, 45%, 44%); }
 #main {
     height: 511px;
@@ -11,6 +17,7 @@
     margin-top: 100px;
     border-radius: 13px;
     text-align: center;
+    box-shadow: 2px 2px 5px #7D889E ;
 }
 h1 {
     display: block; 
